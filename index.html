@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase1</title>
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-
+     T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+     crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+
+<!-- formulario -->
+
+ <h1>Formulario de Tareas</h1>
+    <div class="conteiner-fluid  d-flex justify-content-center">
+        <form>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="id">Id: </label>
+            <input class="form-control" type="text" id="id" name="id">
+          </div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="titulo">Titulo:</label>
+            <input class="form-control" type="text" id="titulo" name="titulo">
+          </div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="descripción">Descripción:</label>
+            <textarea class="form-control" name="descripción" id="descripción" ></textarea>
+          </div> 
+            <div class="input-group mb-3">
+            <label class="input-group-text" for="tiempo">Tiempo:</label>
+            <input class="form-control" type="number" id="tiempo" name="tiempo">
+          </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="formFileMultiple">Subir Imagen</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+              <div class="input-group mb-3">
+            <label  class="input-group-text" for="responsable">Responsable:</label>
+            <input class="form-control" type="text" id="responsable" name="responsable">
+              </div>
+            <div class="input-group  mb-3">
+            <label  class="input-group-text" for="estado">Estado:</label>
+            <select  class="form-control" id="estado">
+              <option value="Pendiente">Pendiente</option>
+              <option value="enProceso">En Proceso</option>
+              <option value="enTesting">En Testing</option>
+              <option value="completada">Completada</option>
+              
+            </select>
+            
+            </div>
+
+            <p id="estadoDeLaTarea"></p>
+            
+            <div class="centrarElementos">
+            <button class="botonEnviar" type="button">Enviar</button>
+            </div>
+            
+   
+
+</form>
+</div> 
+<script src="index.js"></script> 
+</body>
+</html>

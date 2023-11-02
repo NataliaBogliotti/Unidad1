@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+body{
+	background-image: url(imagen.png);
+  
+}
+ 
+ h1{
+    display: flex;
+	justify-content: center; 
+	color:white;
+	border-radius: 90px solid black;
+	
+}  
+
+form{
+	
+	padding:16px;
+	border: 6px solid black;
+	margin:auto;
+	background-color: white; 
+}
+
+
+.input-group-text{
+     font-weight: bold; 
+    border: 2px solid #010107;
+}
+
+.form-control {
+    border:2px solid #010107;
+	background-color:#f6f6f6;
+
+}
+
+.botonEnviar{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+	border-color: white;
+	 width: 25%;
+    height: 40px;
+    padding: 5px; 
+}
+
+.centrarElementos{
+    display: flex;
+    justify-content: center;
+}
+
+
+#estadoDeLaTarea{
+    color: rgb(102, 4, 4);
+    
+  
+}
+
